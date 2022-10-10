@@ -7,13 +7,14 @@ public class Product {
 	static final String VENDOR_NAME = "Argos";
 	static final String CONTACT_NUMBER = "+44771234567";
 	static final String VENDOR_EMAIL = "Argos@Email.com";
-    int id;
-    String name;
-    float price;
-    String category;
-    float rating;
-    float discountPercentage;
-    boolean isAvailable;
+	
+    public int id;
+    public String name;
+    public float price;
+    public String category;
+    public float rating;
+    public float discountPercentage;
+    public boolean isAvailable;
     
     //Constructor 
     
@@ -57,6 +58,5 @@ public class Product {
 		System.out.println("Vendor contact number: "+ CONTACT_NUMBER);
 		System.out.println("Vendor email: "+ VENDOR_EMAIL);
 	}
-    
-    
+    			
 }

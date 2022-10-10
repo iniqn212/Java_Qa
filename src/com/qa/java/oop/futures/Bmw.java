@@ -21,7 +21,7 @@ public  class Bmw extends Cars {
 	@Override
 	public void engineDetails() {
 		
-		System.out.println("BMw is super");
+		System.out.println("Bmw is super");
 	}
 
 	

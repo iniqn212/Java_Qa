@@ -1,9 +1,12 @@
 package com.qa.java.oop.futures;
 
-public abstract class CarService {
+public  class CarService {
 
 	
-	public abstract void engineDetails();
+	public  void engineDetails(Cars car) {
+		
+		car.engineDetails();
+	}
 		
 		
 

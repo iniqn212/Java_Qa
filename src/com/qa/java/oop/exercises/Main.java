@@ -9,11 +9,13 @@ public class Main {
 		Product laptop;
 		laptop = new Product(100, "Dell", 1000f, "Laptops", 9.9f, 10, true);
 		
-		Product monitor;
-		monitor =new Product(200, "HP", 200f, "Monitors", 6.7f, 15, true);		
+		Product monitorHp;
+		monitorHp =new Product(200, "HP", 200f, "Monitors", 6.7f, 15, true);		
 	
 		Product smartPhone;
-		smartPhone = new Product(300, "Apple", 2000f, "Phones", 10.0f, 2, true);		
+		smartPhone = new Product(300, "Apple", 2000f, "Phones", 10.0f, 2, true);
+		
+		
 
 		laptop.displayInfo();
 		float priceCut = laptop.productDiscountCalc();
@@ -22,10 +24,10 @@ public class Main {
 				"$ final price is "+ finalPrice+"$");
 		System.out.println("---------------------------------------");
 		
-		monitor.displayInfo();
-		 priceCut = monitor.productDiscountCalc();
-		 finalPrice = monitor.priceAfterDiscount();
-		System.out.println("Price of Monitor " + monitor.name + " is: " + monitor.price + "$ after discount of " + priceCut + 
+		monitorHp.displayInfo();
+		 priceCut = monitorHp.productDiscountCalc();
+		 finalPrice = monitorHp.priceAfterDiscount();
+		System.out.println("Price of Monitor " + monitorHp.name + " is: " + monitorHp.price + "$ after discount of " + priceCut + 
 				"$ final price is "+ finalPrice+"$");
 		System.out.println("---------------------------------------");
 		
@@ -37,6 +39,9 @@ public class Main {
 		System.out.println("---------------------------------------");
 		
 		Product.vendorDetails();
+		
+		System.out.println("---------------------------------------");
+		
 		
 
 	}

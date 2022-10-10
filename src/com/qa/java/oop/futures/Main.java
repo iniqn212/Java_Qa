@@ -17,7 +17,10 @@ public class Main  {
 		S40.carDetails();
 		System.out.println("---------------------------------------------------");
 		
+		CarService carService = new CarService();
 		
+		carService.engineDetails(carBmw);
+	
 	}
 
 }
